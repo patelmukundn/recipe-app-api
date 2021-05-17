@@ -1,5 +1,5 @@
-FROM python:3.7-alpine
-MAINTAINER SIPL
+FROM python:3.9-alpine
+LABEL maintainer="SIPL"
 
 ENV PYTHONUNBUFFERED 1
 
